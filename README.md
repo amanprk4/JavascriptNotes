@@ -369,6 +369,8 @@ once script is executed, it continues with HTML parsing
 ## This Keyword
 
 - In the global scope, this refers to the global object ( In case of browsers it is called window, in case of other envs, it might be different)
-
 - Inside a function, this refers the undefined or global object based on whether we are using it in strict mode or non strict mode
+- Value of this also depends on how a function is called. If it's called inside a object's method, this refers to object
+- Call / Apply / Bind are used to share methods. Inside call, we hac provide the this keyword's object
+- Inside the arrow function, this will refer to the enclosing lexical environment.
 
