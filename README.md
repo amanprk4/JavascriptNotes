@@ -362,3 +362,4 @@ once script is executed, it continues with HTML parsing
 4. Promise.any(Iterable...)
 -> Very much like race
 -> But gives you the first resolved (success) promise
+-> In case of all fails -> It will give you aggregate errors
